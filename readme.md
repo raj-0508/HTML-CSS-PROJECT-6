@@ -1,4 +1,4 @@
-# HTML-CSS-PROJECT-01
+# HTML-CSS-PROJECT-6
 
 This project explores the use of the Flex property and Z-index in HTML/CSS.
 
@@ -9,4 +9,4 @@ In this project, I have learnt the Flex property, which is a powerful tool in CS
 
 # Screenshot
 
- ! [image] (./Screenshot.png)
+![Screenshot ](https://github.com/user-attachments/assets/d2bcf80d-2d01-4e80-8df5-e092fe826af4)
