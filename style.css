@@ -6,16 +6,21 @@
 }
 
     
-
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/bg.png");
+    background-size: cover;
+}
 
 
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: black;
-    color: white;
-    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 25px;
     
 }
 
@@ -24,46 +29,32 @@
 
 }
 
+.logo{
+    height: 40px;
+}
 
 .line{
     padding: .05rem;
     background-color: #fff;
-    height: 4rem;
+    height: 3rem;
+    margin-left: 50px;
 }
 
 .list{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    font-size: 1.5rem;
-    gap:3rem;
+    font-size: 1rem;
     
   }
   
-  .list-item{
+.list-item{
     list-style:none;
-    margin: 0 1rem;
+    margin-left: 3rem;
     color: #ffffff;
     display: flex;
-    position: relative;
-    margin-left: 0;
-    font-weight: 600;
-    
-  }
-
-  .list-item :nth-child(1){
-    
-
-  }
-
-.grow-list{
-    display: flex;
-    
+    margin-left: 3rem;
+    font-weight: 600; 
 }
-
-
-
-
 
 .button-group{
     display: flex;
@@ -71,40 +62,49 @@
 }
 
         
-button{
-    padding: 0.5rem 3rem;
+.container button{
+    padding: .7rem 2rem;
     background-color: rgb(185, 19, 185);
-    font-size:1.1rem;
-    margin-left: 1rem;
-    border-radius: 0.8rem;
-    height: 50px;
+    font-size:1rem;
+    font-weight: 550;
+    border-radius: 0.4rem;
     color: #fff;
     border: none;
     
 }
 
 .hero{
-    background-image: url("assets/bg.png");
-    background-size: cover;
+    
     text-align: center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
-.hero-heading{
-    font-size: 8rem;
-    padding: 14rem 10rem 0 10rem;
+.hero h1{
+    font-size: 5rem;
+    margin-top: 12rem;
     font-weight: 700;
+    width: 90vh;
 }
 
 
 .hero-description{
-    font-size: 3rem;
+    font-size: 1.8rem;
+    font-weight: 400;
     margin-top: 1rem;
 }
 
-.button-large{
-    margin: 8rem;
-    margin-bottom: 20rem;
-    font-size: 2rem;
-    height: 70px;
+.hero button{
+    margin-top: 5rem;
+    padding: 1rem 2rem;
+    background-color: rgb(185, 19, 185);
+    font-size:1.5rem;
+    font-weight: 700;
+    border-radius: 0.8rem;
+    color: #fff;
+    border: none;
+    margin-bottom: 10rem;
 }
