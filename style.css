@@ -7,10 +7,10 @@
 
     
 .container{
-    height: 100%;
-    width: 100%;
     background-image: url("assets/bg.png");
     background-size: cover;
+    height: 100vh;
+    width: 100%;
 }
 
 
@@ -49,7 +49,6 @@
   
 .list-item{
     list-style:none;
-    margin-left: 3rem;
     color: #ffffff;
     display: flex;
     margin-left: 3rem;
@@ -70,6 +69,7 @@
     border-radius: 0.4rem;
     color: #fff;
     border: none;
+    min-width: 160px;
     
 }
 
@@ -87,7 +87,6 @@
     font-size: 5rem;
     margin-top: 12rem;
     font-weight: 700;
-    width: 90vh;
 }
 
 
@@ -106,5 +105,4 @@
     border-radius: 0.8rem;
     color: #fff;
     border: none;
-    margin-bottom: 10rem;
 }
